@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sum Calculator</h1>
+        <h4>Please enter the 2 numbers you want added together</h4>
+        <label1 for="num1">Enter Number 1:</label1>
+        <input type="text" id="num1" oninput="validateInput(this)">
+        <label for="num2">Enter Number 2:</label>
+        <input type="text" id="num2" oninput="validateInput(this)">
+        <button onclick="calculateSum()">Calculate</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

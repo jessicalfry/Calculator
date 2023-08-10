@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px;
+    color: #2F3C7E;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FBEAEB;
+}
+
+input, button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    width: auto;
+    box-sizing: border-box;
+}
+button {
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+    cursor: pointer;
+    border-color: #2F3C7E;
+}
+
+button:hover {
+background-color: #FBEAEB;
+color: #2F3C7E;
+border-color: #FBEAEB;
+}
+
+/* colours
+.blue {
+    color: #2F3C7E;
+} */
