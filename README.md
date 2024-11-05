@@ -1,5 +1,4 @@
-# homework1
-> Specialisation homework 1
+
 >
 >screenshot of the app open in my generated URL on my browser. 
 
